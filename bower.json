@@ -2,6 +2,8 @@
   "name": "sinap-engineer-meeting-20140203-polymer",
   "dependencies": {
     "bootstrap": "3",
-    "polymer": "*"
+    "polymer": "*",
+    "polymer-elements": "*",
+    "polymer-ui-elements": "*"
   }
 }
