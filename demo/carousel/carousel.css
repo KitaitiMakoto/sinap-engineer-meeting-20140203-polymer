@@ -1,0 +1,13 @@
+body {
+  margin: 1em;
+}
+
+.carousel {
+  width: 168px;
+  margin-left: 40%;
+  text-align: center;
+}
+
+.prettyprint {
+  margin: 2em;
+}
