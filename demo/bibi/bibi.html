@@ -1,0 +1,19 @@
+<link href="../components/bibi/bib/i.css" rel="stylesheet" type="text/css">
+<script src="../components/bibi/bib/i.js" type="text/javascript"></script>
+
+<polymer-element name="ebook-bibi" attributes="book name width height">
+  <template>
+    <article>
+      <h1><content></content></h1>
+      <iframe src="../components/bibi/bib/i/index.html?book={{book}}" class="bibi-frame" width="{{width}}" height="{{height}}"></iframe>
+      <p><a href="../components/bibi/bib/i/index.html?book={{book}}" data-bibi="embed">Download</a></p>
+    </article>
+  </template>
+  <script type="text/javascript">
+    Polymer("ebook-bibi", {
+      book: null,
+      width: "480",
+      height: "720"
+    });
+  </script>
+</polymer-element>
