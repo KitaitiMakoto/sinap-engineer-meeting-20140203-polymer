@@ -7,6 +7,14 @@ theme
 allotted-time
 :  15m
 
+PolymerとWeb Components
+=======================
+
+SINAPエンジニアチーム
+　定例ミーティング用資料
+
+2014年2月3日 月曜日
+
 [Polymer][polymer]
 ==================
 
