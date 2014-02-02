@@ -1,6 +1,8 @@
-= TODO: スライドのタイトル
+= PolymerとWeb Components
 
-TODO: スライドの説明
+社内エンジニア向けのPolymerとWeb Componentsの紹介です。
+
+発表の後に雑談タイムがある前提で作っています。
 
 == 作者向け
 
