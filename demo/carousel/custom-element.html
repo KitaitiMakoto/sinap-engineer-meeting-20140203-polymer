@@ -55,7 +55,7 @@
   </div>
 </bootstrap-carousel>
 
-<pre class="prettyprint"><code>
+<pre class="prettyprint">
 &lt;bootstrap-carousel&gt;
   &lt;div class="item active"&gt;
     &lt;img src="http://sinap.jp/res/images/common/topService_cTools_fig.jpg" alt="First slide"&gt;
@@ -79,9 +79,9 @@
     &lt;img src="http://sinap.jp/res/images/common/topService_5merits_fig.jpg" alt="Third slide"&gt;
   &lt;/div&gt;
 &lt;/bootstrap-carousel&gt;
-</code></pre>
+</pre>
 
-<pre class="prettyprint"><code>
+<pre class="prettyprint">
 var bootstrapCarouselCount = 0;
 var bootstrapCarouselPrototype = Object.create(HTMLElement.prototype);
 bootstrapCarouselPrototype.createdCallback = function() {
@@ -96,7 +96,7 @@ bootstrapCarouselPrototype.createdCallback = function() {
   bootstrapCarouselCount++;
 };
 var bootstrapCarousel = document.registerElement("bootstrap-carousel", {prototype: bootstrapCarouselPrototype});
-</code></pre>
+</pre>
 
 <p><a href="./index.html" rel="previous">Bootstrap 3のカルーセル</a></p>
 <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js" type="text/javascript"></script>
