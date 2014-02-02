@@ -4,6 +4,7 @@
     "bootstrap": "3",
     "polymer": "*",
     "polymer-elements": "*",
-    "polymer-ui-elements": "*"
+    "polymer-ui-elements": "*",
+    "bibi": "satorumurmur/bibi"
   }
 }
