@@ -29,11 +29,11 @@ PolymerとWeb Components
 [Polymer][polymer]
 ==================
 
-フロントエンドのアプリケーションフレームワーク
+フロントエンドのアプリケーションフレームワーク。
 
-Google I/O 2013で発表
+Google I/O 2013で発表。
 
-Web Componentsのpolyfill＋フレームワーク
+Web Componentsのpolyfill＋フレームワーク。
 
 Polyfill
 ========
@@ -47,7 +47,8 @@ Polyfill
 Web Comopnents
 ==============
 
-ウェブページをコンポーネントの組み合わせで作りやすできるような仕様の集まり
+ウェブページをコンポーネントの組み合わせで作りやすできるような仕様の集まり。
+
 W3Cの[Introduction to Web Components][webcomponents]
 
 Web Comopnents
