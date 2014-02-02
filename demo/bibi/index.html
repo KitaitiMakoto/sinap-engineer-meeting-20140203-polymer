@@ -26,6 +26,30 @@
 &lt;ebook-bibi book="sample.epub" width="240" height="160"&gt;240px × 160px指定のSample Book&lt;/ebook-bibi&gt;
 </pre>
 
+<hr>
+
+<pre class="prettyprint">
+&lt;link href="../components/bibi/bib/i.css" rel="stylesheet" type="text/css"&gt;
+&lt;script src="../components/bibi/bib/i.js" type="text/javascript"&gt;&lt;/script&gt;
+
+&lt;polymer-element name="ebook-bibi" attributes="book width height"&gt;
+  &lt;template&gt;
+    &lt;article&gt;
+      &lt;h1&gt;&lt;content&gt;&lt;/content&gt;&lt;/h1&gt;
+      &lt;iframe src="../components/bibi/bib/i/index.html?book={{book}}" class="bibi-frame" width="{{width}}" height="{{height}}"&gt;&lt;/iframe&gt;
+      &lt;p&gt;&lt;a href="../components/bibi/bib/i/index.html?book={{book}}" data-bibi="embed"&gt;Download&lt;/a&gt;&lt;/p&gt;
+    &lt;/article&gt;
+  &lt;/template&gt;
+  &lt;script type="text/javascript"&gt;
+    Polymer("ebook-bibi", {
+      book: null,
+      width: "480",
+      height: "720"
+    });
+  &lt;/script&gt;
+&lt;/polymer-element&gt;
+</pre>
+
 <p><a href="../index.html">目次</a></p>
 
 <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js" type="text/javascript"></script>
