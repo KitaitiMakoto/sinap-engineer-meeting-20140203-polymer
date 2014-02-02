@@ -12,11 +12,14 @@
   var bootstrapCarouselCount = 0;
   var bootstrapCarouselPrototype = Object.create(HTMLElement.prototype);
   bootstrapCarouselPrototype.createdCallback = function() {
+
+    var interval = this.hasAttribute("interval") ? this.getAttribute("interval") : 5000;
+
     this.innerHTML =
       '<div class="carousel slide" id="bootstrap-carousel-' + bootstrapCarouselCount + '"><ol class="carousel-indicators"><li data-target="#bootstrap-carousel-'+ bootstrapCarouselCount +'" data-slide-to="0" class="active"></li><li data-target="#bootstrap-carousel-' + bootstrapCarouselCount + '" data-slide-to="1"></li><li data-target="#bootstrap-carousel-' + bootstrapCarouselCount + '" data-slide-to="2"></li></ol><div class="carousel-inner">' +
       this.innerHTML +
       '</div><a class="left carousel-control" href="#bootstrap-carousel-' + bootstrapCarouselCount + '" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a><a class="right carousel-control" href="#bootstrap-carousel-' + bootstrapCarouselCount + '" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a></div>';
-    $(this).carousel();
+    $(this).carousel({interval: interval});
     bootstrapCarouselCount++;
   };
   var bootstrapCarousel = document.registerElement("bootstrap-carousel", {prototype: bootstrapCarouselPrototype});
@@ -40,7 +43,7 @@
   </div>
 </bootstrap-carousel>
 
-<bootstrap-carousel>
+<bootstrap-carousel interval="500">
   <div class="item active">
     <img src="http://sinap.jp/res/images/common/topService_html5.jpg" alt="First slide">
   </div>
@@ -65,9 +68,7 @@
   &lt;/div&gt;
 &lt;/bootstrap-carousel&gt;
 
-&lt;br&gt;
-
-&lt;bootstrap-carousel&gt;
+&lt;bootstrap-carousel <strong>interval="500"</strong>&gt;
   &lt;div class="item active"&gt;
     &lt;img src="http://sinap.jp/res/images/common/topService_html5.jpg" alt="First slide"&gt;
   &lt;/div&gt;
@@ -84,11 +85,14 @@
 var bootstrapCarouselCount = 0;
 var bootstrapCarouselPrototype = Object.create(HTMLElement.prototype);
 bootstrapCarouselPrototype.createdCallback = function() {
+
+  var interval = this.hasAttribute("interval") ? this.getAttribute("interval") : 5000;
+
   this.innerHTML =
     '&lt;div class="carousel slide" id="bootstrap-carousel-' + bootstrapCarouselCount + '"&gt;&lt;ol class="carousel-indicators"&gt;&lt;li data-target="#bootstrap-carousel-'+ bootstrapCarouselCount +'" data-slide-to="0" class="active"&gt;&lt;/li&gt;&lt;li data-target="#bootstrap-carousel-' + bootstrapCarouselCount + '" data-slide-to="1"&gt;&lt;/li&gt;&lt;li data-target="#bootstrap-carousel-' + bootstrapCarouselCount + '" data-slide-to="2"&gt;&lt;/li&gt;&lt;/ol&gt;&lt;div class="carousel-inner"&gt;' +
     this.innerHTML +
     '&lt;/div&gt;&lt;a class="left carousel-control" href="#bootstrap-carousel-' + bootstrapCarouselCount + '" data-slide="prev"&gt;&lt;span class="glyphicon glyphicon-chevron-left"&gt;&lt;/span&gt;&lt;/a&gt;&lt;a class="right carousel-control" href="#bootstrap-carousel-' + bootstrapCarouselCount + '" data-slide="next"&gt;&lt;span class="glyphicon glyphicon-chevron-right"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;';
-  $(this).carousel();
+  $(this).carousel({interval: interval});
   bootstrapCarouselCount++;
 };
 var bootstrapCarousel = document.registerElement("bootstrap-carousel", {prototype: bootstrapCarouselPrototype});
