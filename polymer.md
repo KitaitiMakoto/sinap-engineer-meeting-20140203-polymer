@@ -147,6 +147,13 @@ SEOどうなってるの？
 :  Mozilla製フレームワーク
    Web Componentsのpolyfill（[X-Tag][x-tag]）＋フレームワーク
 
+雑談のネタ候補
+==============
+
+* ワークフロー変わりそうなところ
+  * 各ウェブサイトやCMS見ながら
+* SEO
+* 宣言的であることのよしあし
 
 [polymer]: http://www.x-tags.org/
 [polyfill]: http://www.adobe.com/jp/devnet/dreamweaver/articles/html5pack_css3_part6.html
