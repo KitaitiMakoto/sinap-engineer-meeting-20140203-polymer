@@ -22,3 +22,16 @@ TODO: スライドの説明
 
   rabbit rabbit-slide-KitaitiMakoto-sinap-engineer-meeting-20140203-polymer.gem
 
+== 発表準備
+
+=== RubyGems
+
+  gem install rabbit rabbiter rack puma foreman
+
+=== Bower Components
+
+  bower install
+
+=== 開始
+
+  foreman start
