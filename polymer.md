@@ -73,9 +73,9 @@ Custom Elements
 
 要素を自由に定義・追加できる
 
-* bibi
-* carousel
-* form inputs
+* カルーセルの例
+
+Chrome 33で実装予定
 
 Shadow DOM
 ==========
