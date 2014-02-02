@@ -4,6 +4,7 @@ body {
 
 .carousel {
   width: 168px;
+  margin-bottom: 1em;
   margin-left: 40%;
   text-align: center;
 }
