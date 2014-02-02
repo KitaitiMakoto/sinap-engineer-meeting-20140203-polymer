@@ -64,6 +64,10 @@ Templates
 
 `&lt;template&gt;`要素
 
+* レンダリングされない
+* 変数とか代入して画面に入れる
+* `&lt;script type="text/template"&gt;`みたいなの
+
 Custom Elements
 ===============
 
