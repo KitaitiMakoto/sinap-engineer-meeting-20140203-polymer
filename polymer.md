@@ -143,9 +143,9 @@ SEOどうなってるの？
 対抗馬？
 ========
 
-[X-Tag][x-tag]
+[Brick][brick]
 :  Mozilla製フレームワーク
-   Web Componentsのpolyfill＋フレームワーク
+   Web Componentsのpolyfill（[X-Tag][x-tag]）＋フレームワーク
 
 
 [polymer]: http://www.x-tags.org/
@@ -153,4 +153,5 @@ SEOどうなってるの？
 [webcomponents]: http://w3c.github.io/webcomponents/explainer/
 [html5rocksshadowdom]: http://www.html5rocks.com/ja/tutorials/video/basics/
 [polymerfaq]: http://www.polymer-project.org/faq.html#seo
+[brick]: http://mozilla.github.io/brick/
 [x-tag]: http://www.x-tags.org/
