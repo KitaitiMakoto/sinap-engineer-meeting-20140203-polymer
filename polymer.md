@@ -109,7 +109,9 @@ Web Componentsを使ったフレームワーク
 
 フロントエンドのみ
 
-PHPとかいらない
+PHPとかCMSとかいらない
+
+* CMSの違いに振り回されないでいい
 
 Web Components
 ==============
